@@ -1,0 +1,46 @@
+{
+  "name": "theta-chain-api-test-suite",
+  "version": "1.0.0",
+  "description": "Automated API test suite for Theta Chain Explorer",
+  "main": "index.js",
+  "keywords": [
+    "theta",
+    "blockchain",
+    "api",
+    "testing",
+    "jest",
+    "automation"
+  ],
+  "author": "Theta Chain Explorer Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 10000,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/theta-chain-api-test-suite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/theta-chain-api-test-suite/issues"
+  },
+  "homepage": "https://github.com/your-org/theta-chain-api-test-suite#readme"
+} 
